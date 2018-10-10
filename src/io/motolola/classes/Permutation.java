@@ -1,9 +1,5 @@
 package io.motolola.classes;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * Created by Akinjide Motolola.
  * email: motolola@icloud.com
@@ -11,7 +7,7 @@ import java.util.List;
 public class Permutation {
     public static void main(String[] args)
     {
-        String str = "abc";
+        String str = "abcde";
         char[] inputString = str.toCharArray();
         permutate(inputString, 0);
 
